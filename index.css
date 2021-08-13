@@ -411,7 +411,6 @@ svg{
         cursor: pointer;
         background:rgb(11, 209, 235);
         padding: 10px;
-        z-index: 2;
     }
     .navsec .img1{
         max-width: 10px;
