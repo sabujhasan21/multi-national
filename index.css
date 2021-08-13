@@ -491,7 +491,7 @@ svg{
         position: absolute;
         top: 0%;
         left: 0%;
-        width: 0%;
+        width: 0px;
         height: 100%;
         background:linear-gradient(transparent,rgb(11, 209, 235));
         transition: 0.5s;
@@ -506,7 +506,7 @@ svg{
     
     .lnkx:hover .glass1{
         position: absolute;
-        width: 100%;
+        width: 100px;
     }
 }
 
