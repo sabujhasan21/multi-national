@@ -418,5 +418,95 @@ svg{
         margin-top: 30px;
         border-radius: 5px;
     }
+    nav{
+        position: absolute;
+        left: 0%;
+        top: 0%;
+        width: 350px;
+        height: 100px;
+        background:linear-gradient(transparent,rgb(11, 209, 235));
+        display: none;
+        z-index: 1;
+    }
+    
+    nav>ul{
+        margin-left: -40px;
+        width: 100%;
+        margin-top: 10px;
+        list-style: none;
+        background-color: transparent;
+    }
+    nav > ul > li{
+        float: left;
+        margin-left: 5px;
+        margin-bottom: 0%;
+        background:none;
+    }
+    nav > ul > li > a{
+        text-decoration: none;
+        font-size: 10px;
+        color: #000;
+        background-color: transparent;
+        text-transform: uppercase;
+        font-family: 'Cinzel', serif;
+    }
+
+
+
+    .head-main{
+        position: relative;
+        margin-top: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .head-main-container{
+        width: 560px;
+    }
+    .hwrt1{
+        font-size: 30px;
+        font-family: 'Caveat', cursive;
+    }
+    .pwrt1{
+        font-size: 14px;
+        font-family: 'STIX Two Text', serif;
+    }
+    
+    .link1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .lnkx{
+        position: relative;
+        width: 100px;
+        height: 30px;
+        border: 1px solid rgb(8, 97, 109);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .glass1{
+        position: absolute;
+        top: 0%;
+        left: 0%;
+        width: 0%;
+        height: 100%;
+        background:linear-gradient(transparent,rgb(11, 209, 235));
+        transition: 0.5s;
+    }
+    .lnkx a{
+        position: relative;
+        font-size: 13px;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: rgb(3, 62, 70);
+    }
+    
+    .lnkx:hover .glass1{
+        position: absolute;
+        width: 100%;
+    }
 }
 
