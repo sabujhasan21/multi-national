@@ -763,4 +763,15 @@ svg{
        font-family: 'Playfair Display', serif;
     }
 }
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.25);
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: red;
+}
 
